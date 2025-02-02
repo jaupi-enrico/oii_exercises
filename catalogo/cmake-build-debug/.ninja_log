@@ -1,0 +1,14 @@
+# ninja log v6
+5	364	7591640740224073	build.ninja	d6e25345b52d07ea
+30	104	7591619000480730	CMakeFiles/catalogo.dir/catalogo.cpp.obj	6abe001fe56a8e79
+24	505	7591619000431665	CMakeFiles/catalogo.dir/grader.cpp.obj	ff9e5954f0d9c70f
+507	640	7591619005258327	catalogo.exe	f580ee2a777bfde6
+2	331	7591640740224073	build.ninja	d6e25345b52d07ea
+18	321	7591640741369454	CMakeFiles/catalogo.dir/catalogo.cpp.obj	6abe001fe56a8e79
+322	440	7591640744418984	catalogo.exe	f580ee2a777bfde6
+5	317	7591643909498425	CMakeFiles/catalogo.dir/catalogo.cpp.obj	6abe001fe56a8e79
+319	432	7591643912637566	catalogo.exe	f580ee2a777bfde6
+5	477	7591645188399690	CMakeFiles/catalogo.dir/grader.cpp.obj	ff9e5954f0d9c70f
+478	587	7591645193119397	catalogo.exe	f580ee2a777bfde6
+6	410	7591654300510762	CMakeFiles/catalogo.dir/catalogo.cpp.obj	6abe001fe56a8e79
+412	550	7591654304567777	catalogo.exe	f580ee2a777bfde6

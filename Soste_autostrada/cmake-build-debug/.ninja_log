@@ -1,0 +1,9 @@
+# ninja log v6
+627	757	7591660027249930	Soste_autostrada.exe	ba950996ad0a20f5
+9	616	7591660021068861	CMakeFiles/Soste_autostrada.dir/grader.cpp.obj	198c8f7cd98a574e
+2	626	7591660020993595	CMakeFiles/Soste_autostrada.dir/autogrill.cpp.obj	e27dfb543546576c
+7	545	7596670250701266	CMakeFiles/Soste_autostrada.dir/autogrill.cpp.obj	e27dfb543546576c
+15	727	7596670250785550	CMakeFiles/Soste_autostrada.dir/grader.cpp.obj	198c8f7cd98a574e
+727	931	7596670257890350	Soste_autostrada.exe	ba950996ad0a20f5
+14	773	7596672803805734	CMakeFiles/Soste_autostrada.dir/autogrill.cpp.obj	e27dfb543546576c
+776	965	7596672811428425	Soste_autostrada.exe	ba950996ad0a20f5
