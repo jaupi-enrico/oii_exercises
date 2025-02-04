@@ -70,6 +70,12 @@ void solve(int t) {
     int p1, p2, p3, p4;
     string virus;
 
+    for (int i = 0; i < F1.size() - M; ++i)
+    {
+        virus = F1.substr(i, M);
+        if (F2.find(virus) > 0 && F3.find(virus)) {}
+    }
+
     if (min == 1)
     {
         virus = find_virus(F1, M, F2, F3, F4);
