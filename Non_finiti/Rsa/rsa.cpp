@@ -1,28 +1,28 @@
-long long int power()
+#include <iostream>
+
+long long int power(int N, int messaggio, int d)
 {
-    long long int num = 1, A, B, AB;
-    if (d == 1)
+    long long int numero;
+    numero = messaggio;
+    numero %= N;
+    long long int num = 1;
+    while (d > 0)
     {
-        num = messaggio[i];
+        if (d % 2 == 1)
+        {
+            num = (num * numero) % N;
+        }
+        numero = (numero * numero) % N;
+        d /= 2;
     }
-    A = messaggio[i];
-    B = messaggio[i] % N;
-    for (int j = 0; j < d - 1; ++j)
-    {
-        A = (A * B) % N;
-    }
-    num = A % N;
     return num;
 }
 
 void decifra(int N, int d, int L, int* messaggio, char* plaintext) {
-    // Esempio di implementazione con un solo carattere da decifrare.
-    // Mettiamo il risultato della decifrazione in plaintext[0] e il
-    // carattere di fine stringa in plaintext[1].
-
     for (int i = 0; i < L; ++i)
     {
-        plaintext[i] = num;
+        long long int decifrato = power(N, messaggio[i], d);
+        plaintext[i] = decifrato;
     }
     plaintext[L] = '\0';
 }
