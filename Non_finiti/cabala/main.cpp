@@ -1,45 +1,21 @@
 #include <stdio.h>
 #include <assert.h>
+#include <vector>
 
-void fai_piu_lungo(int v1[], int N)
+int lunghezza(int N)
 {
-    for (int i = 0; i < N; ++i)
+    int LN = 0;
+
+    while (N > 0)
     {
-        if (i % 2 == 0)
-        {
-            v1[i] = 9;
-        }
-        else
-        {
-            v1[i] = 6;
-        }
+        LN++;
+        N /= 10;
     }
-}
-
-int lunghezza_numero(int M)
-{
-    int L = 0;
-    while (M > 0)
-    {
-        M /= 10;
-        L++;
-    }
-    return L;
-}
-
-long long int converti_numero(int v1[], int N)
-{
-
+    return LN;
 }
 
 long long occulta(int N, int M) {
-    int v1[N];
-    int LM = lunghezza_numero(M);
-    if (N < LM)
-    {
-        fai_piu_lungo(v1, N);
-    }
-    return converti_numero(v1, N);
+
 }
 
 
