@@ -1,0 +1,3 @@
+D:/Scuola/Github/oii_exercises/Allenamento_15_02_2025/caselle/cmake-build-debug/CMakeFiles/caselle.dir
+D:/Scuola/Github/oii_exercises/Allenamento_15_02_2025/caselle/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Scuola/Github/oii_exercises/Allenamento_15_02_2025/caselle/cmake-build-debug/CMakeFiles/rebuild_cache.dir

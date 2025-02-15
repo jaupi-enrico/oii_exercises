@@ -1,0 +1,3 @@
+D:/Scuola/Github/oii_exercises/Allenamento_15_02_2025/lavagna/cmake-build-debug/CMakeFiles/lavagna.dir
+D:/Scuola/Github/oii_exercises/Allenamento_15_02_2025/lavagna/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Scuola/Github/oii_exercises/Allenamento_15_02_2025/lavagna/cmake-build-debug/CMakeFiles/rebuild_cache.dir
