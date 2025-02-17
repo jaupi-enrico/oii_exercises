@@ -16,6 +16,23 @@ int lunghezza(int N)
 
 long long occulta(int N, int M) {
 
+    std::vector<int> num;
+    long long resto = M, LM;
+
+    for (int i = 0; i < N; ++i) {
+        num.push_back(M % 10);
+        M /= 10;
+    }
+    for (int i = 0; i < num.size(); ++i) {
+        int temp = num.at(i);
+        num.at(num.size() - i - 1) = num.at(i);
+        num.at(num.size() - i - 1) = temp;
+    }
+    resto = 0;
+    for (int i = 0; i < num.size(); ++i) {
+        resto *= 10;
+        resto += num.at(i);
+    }
 }
 
 
