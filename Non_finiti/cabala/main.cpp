@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
+#include <iostream>
+#include <string>
 #include <vector>
 
 int lunghezza(int N)
@@ -14,25 +16,68 @@ int lunghezza(int N)
     return LN;
 }
 
+bool check_valid(long long n) {
+    std::string s = std::to_string(n);
+    if (s.length() == 1) {
+        int num1 = s.at(0) - '0';
+        if (num1 % 3 != 0 && num1 != 1 || num1 == 0) {
+            return false;
+        }
+    }
+    for (long long i = 0; i < s.length() - 1; ++i) {
+        int num1 = s.at(i) - '0';
+        int num2 = s.at(i + 1) - '0';
+
+        if (num1 % 3 != 0 && num1 != 1 || num1 == 0) {
+            return false;
+        }
+        if (num2 % 3 != 0 && num2 != 1 || num2 == 0) {
+            return false;
+        }
+
+        if (num1 == num2) {
+            return false;
+        }
+    }
+    return true;
+}
+
 long long occulta(int N, int M) {
 
     std::vector<int> num;
-    long long resto = M, LM;
+    long long resto = M - 1, LM = lunghezza(M);
 
-    for (int i = 0; i < N; ++i) {
-        num.push_back(M % 10);
-        M /= 10;
-    }
-    for (int i = 0; i < num.size(); ++i) {
-        int temp = num.at(i);
-        num.at(num.size() - i - 1) = num.at(i);
-        num.at(num.size() - i - 1) = temp;
+    if (N >= LM) {
+        for (int i = 0; i < N; ++i) {
+            if (M != 0) {
+                num.push_back(M % 10);
+            }
+            M /= 10;
+        }
+        for (int i = 0; i < num.size()/2; ++i) {
+            int temp = num.at(i);
+            num.at(i) = num.at(num.size() - i - 1);
+            num.at(num.size() - i - 1) = temp;
+        }
+        resto = 0;
+        for (int i = 0; i < num.size(); ++i) {
+            resto *= 10;
+            resto += num.at(i);
+        }
+        while (!check_valid(resto)) {
+            resto--;
+        }
+        return resto;
     }
     resto = 0;
-    for (int i = 0; i < num.size(); ++i) {
+    for (int i = 0; i < N; ++i) {
         resto *= 10;
-        resto += num.at(i);
+        resto += 9;
     }
+    while (!check_valid(resto)) {
+        resto--;
+    }
+    return resto;
 }
 
 
