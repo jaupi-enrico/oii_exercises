@@ -1,0 +1,3 @@
+D:/Scuola/Github/oii_exercises/Allenamento_21_02_2025/typst/cmake-build-debug/CMakeFiles/typst.dir
+D:/Scuola/Github/oii_exercises/Allenamento_21_02_2025/typst/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Scuola/Github/oii_exercises/Allenamento_21_02_2025/typst/cmake-build-debug/CMakeFiles/rebuild_cache.dir

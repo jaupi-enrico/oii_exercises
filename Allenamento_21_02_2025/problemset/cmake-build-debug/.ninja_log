@@ -1,0 +1,10 @@
+# ninja log v6
+3	1089	7618545221498023	CMakeFiles/problemset.dir/main.cpp.obj	81deef6fa51c7c6
+31	1234	7618545221783203	CMakeFiles/problemset.dir/grader.cpp.obj	a8798a2b6274d11c
+1234	1542	7618545233807067	problemset.exe	5585d2a5b08e2aab
+6	1032	7618547235759153	CMakeFiles/problemset.dir/main.cpp.obj	81deef6fa51c7c6
+1033	1320	7618547246023815	problemset.exe	5585d2a5b08e2aab
+7	1052	7618551320357749	CMakeFiles/problemset.dir/main.cpp.obj	81deef6fa51c7c6
+1053	1346	7618551330808504	problemset.exe	5585d2a5b08e2aab
+6	1006	7618552182032476	CMakeFiles/problemset.dir/main.cpp.obj	81deef6fa51c7c6
+1007	1318	7618552192042475	problemset.exe	5585d2a5b08e2aab

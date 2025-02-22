@@ -1,0 +1,20 @@
+# ninja log v6
+3	789	7618473307297021	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+33	879	7618473307597401	CMakeFiles/semafori.dir/grader.cpp.obj	78a21237d41eef8e
+879	1148	7618473316062614	semafori.exe	9d58ae1dfabe754c
+9	733	7618478779867999	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+733	1007	7618478787110013	semafori.exe	9d58ae1dfabe754c
+7	732	7618478979132170	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+732	997	7618478986379145	semafori.exe	9d58ae1dfabe754c
+7	667	7618483808934751	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+667	943	7618483815530813	semafori.exe	9d58ae1dfabe754c
+8	692	7618485016728588	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+693	981	7618485023568760	semafori.exe	9d58ae1dfabe754c
+8	774	7618490718280400	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+775	1067	7618490725944516	semafori.exe	9d58ae1dfabe754c
+8	732	7618491899977762	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+732	1002	7618491907220265	semafori.exe	9d58ae1dfabe754c
+7	735	7618492197963750	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+736	1002	7618492205249162	semafori.exe	9d58ae1dfabe754c
+7	778	7618493033757883	CMakeFiles/semafori.dir/main.cpp.obj	eb70ee7d0acbc9e6
+779	1049	7618493041478317	semafori.exe	9d58ae1dfabe754c

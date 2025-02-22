@@ -1,0 +1,6 @@
+# ninja log v6
+4	789	7618471415562128	CMakeFiles/typst.dir/main.cpp.obj	d7b5bc2c82ab0f0f
+36	907	7618471415887563	CMakeFiles/typst.dir/typst.cpp.obj	383f1e0192a206d3
+3	544	7618471792960039	build.ninja	fa4b5ca5fd46d280
+3	512	7618471792960039	build.ninja	fa4b5ca5fd46d280
+10	260	7618471793978254	typst.exe	fd97883af0a6f438
