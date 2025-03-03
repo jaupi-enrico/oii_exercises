@@ -1,0 +1,3 @@
+D:/Scuola/Github/oii_exercises/Non_finiti/cabala/cmake-build-debug/CMakeFiles/cabala.dir
+D:/Scuola/Github/oii_exercises/Non_finiti/cabala/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Scuola/Github/oii_exercises/Non_finiti/cabala/cmake-build-debug/CMakeFiles/rebuild_cache.dir
