@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\78313537\AppData\Local\JetBrains\CLion 2024.3.1.1\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Classi\3AI\Enrico_Jaupi\Clion\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\78313537\AppData\Local\JetBrains\CLion 2024.3.1.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "D:\Classi\3AI\Enrico_Jaupi\Clion\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato
+CMAKE_SOURCE_DIR = D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Cioccolato.dir/depend.make
@@ -69,18 +69,18 @@ include CMakeFiles/Cioccolato.dir/progress.make
 include CMakeFiles/Cioccolato.dir/flags.make
 
 CMakeFiles/Cioccolato.dir/main.cpp.obj: CMakeFiles/Cioccolato.dir/flags.make
-CMakeFiles/Cioccolato.dir/main.cpp.obj: C:/Users/78313537/Documents/Github/oii_exercises/Non_finiti/Cioccolato/main.cpp
+CMakeFiles/Cioccolato.dir/main.cpp.obj: D:/Classi/3AI/Enrico_Jaupi/Github/oii_exercises/Non_finiti/Cioccolato/main.cpp
 CMakeFiles/Cioccolato.dir/main.cpp.obj: CMakeFiles/Cioccolato.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cioccolato.dir/main.cpp.obj"
-	C:\Users\78313537\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cioccolato.dir/main.cpp.obj -MF CMakeFiles\Cioccolato.dir\main.cpp.obj.d -o CMakeFiles\Cioccolato.dir\main.cpp.obj -c C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cioccolato.dir/main.cpp.obj"
+	"D:\Classi\3AI\Enrico_Jaupi\Clion\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cioccolato.dir/main.cpp.obj -MF CMakeFiles\Cioccolato.dir\main.cpp.obj.d -o CMakeFiles\Cioccolato.dir\main.cpp.obj -c D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\main.cpp
 
 CMakeFiles/Cioccolato.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cioccolato.dir/main.cpp.i"
-	C:\Users\78313537\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\main.cpp > CMakeFiles\Cioccolato.dir\main.cpp.i
+	"D:\Classi\3AI\Enrico_Jaupi\Clion\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\main.cpp > CMakeFiles\Cioccolato.dir\main.cpp.i
 
 CMakeFiles/Cioccolato.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cioccolato.dir/main.cpp.s"
-	C:\Users\78313537\AppData\Local\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\main.cpp -o CMakeFiles\Cioccolato.dir\main.cpp.s
+	"D:\Classi\3AI\Enrico_Jaupi\Clion\CLion 2024.3.5\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\main.cpp -o CMakeFiles\Cioccolato.dir\main.cpp.s
 
 # Object files for target Cioccolato
 Cioccolato_OBJECTS = \
@@ -94,7 +94,7 @@ Cioccolato.exe: CMakeFiles/Cioccolato.dir/build.make
 Cioccolato.exe: CMakeFiles/Cioccolato.dir/linkLibs.rsp
 Cioccolato.exe: CMakeFiles/Cioccolato.dir/objects1.rsp
 Cioccolato.exe: CMakeFiles/Cioccolato.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Cioccolato.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Cioccolato.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Cioccolato.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +106,6 @@ CMakeFiles/Cioccolato.dir/clean:
 .PHONY : CMakeFiles/Cioccolato.dir/clean
 
 CMakeFiles/Cioccolato.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug C:\Users\78313537\Documents\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug\CMakeFiles\Cioccolato.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug D:\Classi\3AI\Enrico_Jaupi\Github\oii_exercises\Non_finiti\Cioccolato\cmake-build-debug\CMakeFiles\Cioccolato.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Cioccolato.dir/depend
 
