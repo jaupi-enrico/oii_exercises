@@ -1,0 +1,3 @@
+D:/Scuola/Github/oii_exercises/Lezioni_2025/Gredy_Dinamica_Terry_01_04/cmake-build-debug/CMakeFiles/Gredy_Dinamica_Terry_01_04.dir
+D:/Scuola/Github/oii_exercises/Lezioni_2025/Gredy_Dinamica_Terry_01_04/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Scuola/Github/oii_exercises/Lezioni_2025/Gredy_Dinamica_Terry_01_04/cmake-build-debug/CMakeFiles/rebuild_cache.dir
