@@ -1,0 +1,9 @@
+# ninja log v6
+32	944	7663582585809830	CMakeFiles/mincammino2.dir/mincammino2.cpp.obj	89ee4b44816cd313
+3	991	7663582585516412	CMakeFiles/mincammino2.dir/main.cpp.obj	2f747aec2eb701fb
+3	540	7663583696855624	build.ninja	6ae433a89193409a
+7	803	7663583734689808	CMakeFiles/mincammino2.dir/mincammino2.cpp.obj	89ee4b44816cd313
+7	837	7663583909014578	CMakeFiles/mincammino2.dir/mincammino2.cpp.obj	89ee4b44816cd313
+838	1111	7663583917315696	mincammino2.exe	e3195d11245a2b46
+7	945	7663584399451279	CMakeFiles/mincammino2.dir/mincammino2.cpp.obj	89ee4b44816cd313
+946	1243	7663584408838185	mincammino2.exe	e3195d11245a2b46

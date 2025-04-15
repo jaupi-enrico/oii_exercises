@@ -1,5 +1,9 @@
 // NOTA: si raccomanda di usare questo template anche se non lo si capisce completamente.
-#include <bits/stdc++.h>
+
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
 
 using namespace std;
 
@@ -16,14 +20,21 @@ int main() {
 
         long long risposta = 0;
 
+        if (N > M)
+        {
+            swap(N, M);
+        }
 
-        for (int i = 0; i < K; ++i) {
-            if (N >= M) {
-                N--;
-            }
-            else if (M > N) {
-                M--;
-            }
+        long long differenza = min(M - N, K);
+        M -= differenza;
+        K -= differenza;
+
+        N -= K /2;
+        M -= K /2;
+
+        if (K % 2)
+        {
+            M--;
         }
 
         risposta = N * M;

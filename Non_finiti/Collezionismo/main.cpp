@@ -12,10 +12,11 @@ void solve(int t) {
     }
 
     // aggiungi codice...
+    vector<long long> differenze (N - 1);
     sort(C.begin(), C.end());
 
-    vector<int> differenze(N - 1);
-    for (int i = 0; i < N - 1; ++i) {
+    for (int i = 0; i < N - 1; ++i)
+    {
         differenze.at(i) = C.at(i + 1) - C.at(i);
     }
 
@@ -23,9 +24,11 @@ void solve(int t) {
 
     long long risposta = C.at(N - 1) - C.at(0);
 
-    for (int i = 0; i < K - 1; ++i) {
+    for (int i = 0; i < K - 1; ++i)
+    {
         risposta -= differenze.at(i);
     }
+
 
     cout << "Case #" << t << ": " << risposta << "\n";
 }
