@@ -1,0 +1,3 @@
+D:/Scuola/Github/oii_exercises/Non_finiti/calcolatrice/cmake-build-debug/CMakeFiles/calcolatrice.dir
+D:/Scuola/Github/oii_exercises/Non_finiti/calcolatrice/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Scuola/Github/oii_exercises/Non_finiti/calcolatrice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
