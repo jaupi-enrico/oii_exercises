@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <assert.h>
+#include <stdlib.h>
 
 static FILE *fr, *fw;
 
@@ -15,9 +17,6 @@ int main() {
 	fr = stdin;
 	fw = stdout;
 
-	//fr = fopen("input.txt", "r");
-    //fw = fopen("output.txt", "w");
-
 	// Iterators used in for loops
 	int i0;
 
@@ -33,7 +32,7 @@ int main() {
 
 	// Writing output
 	fprintf(fw, "%d\n", B);
-
+	
 	fclose(fr);
 	fclose(fw);
 	return 0;
