@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include <vector>
+#include <bits/stdc++.h>
 
 #define MAXN 5000
 #define MAXK 5000
@@ -8,28 +8,33 @@
 
 int mangia(int N, int K, int P[]) {
     int sum = 0;
+    int maggiore = 0;
+    std::vector<int> valori;
     for (int i = 0; i < N; ++i) {
         sum += P[i];
+        valori.push_back(P[i]);
     }
 
     std::vector<bool> dp(sum + 1, false);
     dp[0] = true;
 
-    for (int i = 0; i < N; ++i) {
-        for (int j = sum; j >= P[i]; --j) {
-            if (dp[j - P[i]]) {
-                dp[j] = true;
+    std::sort(valori.begin(), valori.end());
+
+    int valore = 0;
+
+    while (valore < N && maggiore < K) {
+        for(int i = 0; i < sum; ++i) {
+            if (dp.at(i)) {
+                dp.at(i + valori.at(valore)) = true;
+            }
+            if (i + valori.at(valore) > maggiore) {
+                maggiore = i + valori.at(valore);
             }
         }
+        valore++;
     }
 
-    for (int i = K; i <= sum; ++i) {
-        if (dp[i]) {
-            return i;
-        }
-    }
-
-    return -1;
+    return maggiore;
 }
 
 int P[MAXN];
